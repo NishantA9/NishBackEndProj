@@ -1,6 +1,6 @@
-This project is a collection of Websites made by Nishant Acharekar (That's me). The projects has various websites which I have developed during my Internship under Sparks Foundation back in 2021 and also websites which I have created under Udemy Course of Complete Python Developer BootCamp 2024 by Angela Yu. 
+This project is a collection of Websites made by Nishant Acharekar (That's me). The projects contains Languages such as Python, Java, C++ and R-Lab. These projects were done during my UNCC Masters Program, University Of Mumbai Bachelors program, Udemy Course in Python and Java respectively.
 
-So this websites contains two sections, The first section contains websites which are live where you can check those websites. The other one are some big projects which I have not hosted yet. All the website project codes are available.
+Live Proj:
 
 I am super happy to share these projects with you and hope you like it.
 
