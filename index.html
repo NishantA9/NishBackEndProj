@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nish_Backend_Proj</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+          </svg>Nish_Backend_Proj</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proj1">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/nishantacharekar/">Linked-In</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/NishantA9">GitHub</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCut0FMt4ec_60Vzw149jdiQ">YouTube Channel</a></li>
+                  <li><a class="dropdown-item" href="https://nishanta9.github.io/NishWebProj/">Web-Projects</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <!-- Hero section -->
+      <div class="container col-xxl-8 px-4 py-5" id="home1">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="1N.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-3 mb-5">Welcome to <span class="nishant">Nishant's</span> <br>
+            BackEnd Projects
+            </h1>
+            <p class="lead">Explore a collection of my BackEnd projects, 
+              all crafted during my Masters Journey through a comprehensive Python and Java course. 
+              Dive in to see the skills and creativity I've developed along the way. 
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="location.href='#proj1'">Projects</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.open('https://github.com/NishantA9', '_blank')">GitHub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <hr>
+
+<!-- <hr> -->
+
+        <h1 class="proj1" id="proj1">My Projects</h1>
+        <div class="contaCard">
+
+          <div class="card">
+            <img src="flask.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Server</h5>
+              <p class="card-text">A Web Server Script that contains a simple Flask Web Application. Made in Python.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Web-Server-Script', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://miro.medium.com/max/1200/1*1QcqrOoDE1rKa0NTp1iEtw.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Scrapper</h5>
+              <p class="card-text">This Python script scrapes & sorts top stories from Hacker News.</p>
+              <a onclick="window.open('https://github.com/NishantA9/WebScraper-Script', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://thepythoncode.com/media/articles/highlight-text-in-pdf-files-with-python.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PDF Editor</h5>
+              <p class="card-text">This repository contains Python scripts for manipulating PDF files. Made in Python.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Pdf-Script', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="password.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Password Checker</h5>
+              <p class="card-text">This Python script checks if a given password has been compromised using the "Have I Been Pwned" API.</p>
+              <a onclick="window.open('https://github.com/NishantA9/CheckMyPassScript', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/10/Image-format-converter-using-Python.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Image Converter</h5>
+              <p class="card-text">This repository contains two Python scripts for image processing: JpgToPngConverter.py and images.py.</p>
+              <a onclick="window.open('https://github.com/NishantA9/ImageConvScript', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+
+          <div class="card">
+            <img src="https://www.codechit.com/wp-content/uploads/2020/06/Photo_1591661571064_8299.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Send Email</h5>
+              <p class="card-text">A Web Server Script that contains a simple Flask Web Application, made in Python.</p>
+              <a onclick="window.open('https://github.com/NishantA9/EmailScriptPython', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+
+          <div class="card">
+            <img src="https://i.pinimg.com/736x/51/c0/1f/51c01f3d91a44d481f619a65b0ce63c8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Small C++ Projects</h5>
+              <p class="card-text">A Collection of C++ projects which contains a fewer lines of code.</p>
+              <a onclick="window.open('https://github.com/NishantA9/CPlusPlus-Codes-SmallProjects', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+
+          <div class="card">
+            <img src="dsa1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graph Algorithms DSA</h5>
+              <p class="card-text">Graph Algorithms and Related Data Structures Project made in Java during my DSA courseWork at UNCC.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Graph-Algorithms-and-Related-Data-Structures-Project-2-AlgoDs', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="dsa2.png" style="height: 40%;;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Comparision Based Sorting Algorithm</h5>
+              <p class="card-text">A Comparison-based Sorting Algorithms made in Java during my DSA courseWork at UNCC.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Comparision-Based-Sorting-Algorithm-AlgoDs-Proj1', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://coderspacket.com/uploads/user_files/2021-02/Screenshot_(131)-1614169777-235.png" style="height: 60%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Snake Game</h5>
+              <p class="card-text">A simple Snake Game made in Java.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Snake-Game-in-Java', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://static.javatpoint.com/core/images/sudoku-in-java.png" style="height: 55%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sudoku-in-Java</h5>
+              <p class="card-text">A Sudoku game made in Java.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Sudoku-Game', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://i.morioh.com/2019/11/25/1d6743d2f3b5.jpg" style="height: 35%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BIL-NEWS-PROJ</h5>
+              <p class="card-text">It implements a news classification system using ML to differentiate between 'REAL' & 'FAKE' news articles. Made in Python.</p>
+              <a onclick="window.open('https://github.com/NishantA9/BIL-NEWS-PROJ', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+          <div class="card">
+            <img src="https://i.pinimg.com/564x/51/af/0b/51af0ba89e2de9c3ab39515e0c6b42ce.jpg" class="card-img-top" style="height: 55%;"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sentiment Analysis</h5>
+              <p class="card-text">A sentiment analysis project made in R-Lab.</p>
+              <a onclick="window.open('https://github.com/NishantA9/sentiment-analysis-proj-Rlab-py-', '_blank')" class="btn btn-primary">GitHub</a>
+              </div>
+          </div>
+
+
+
+        </div>
+      <!-- footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© Nishant Acharekar.</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#home1" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/nishantacharekar/" class="nav-link px-2 text-body-secondary">Linked-In</a></li>
+            <li class="nav-item"><a href="https://github.com/NishantA9" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/channel/UCut0FMt4ec_60Vzw149jdiQ" class="nav-link px-2 text-body-secondary">YouTube Channel</a></li>
+
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+          </ul>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- <script>
+        document.getElementById('search-button').addEventListener('click', function() {
+          const query = document.getElementById('search-input').value.toLowerCase();
+          const cards = document.querySelectorAll('.card');
+          
+          cards.forEach(card => {
+            const searchableText = card.dataset.search.toLowerCase();
+            if (searchableText.includes(query)) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      </script> -->
+
+</body>
+</html>
